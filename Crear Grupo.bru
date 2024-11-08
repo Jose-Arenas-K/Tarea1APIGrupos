@@ -1,0 +1,21 @@
+meta {
+  name: Crear Grupo
+  type: http
+  seq: 4
+}
+
+post {
+  url: https://g7lj7o7oc5.execute-api.us-east-1.amazonaws.com/prod/groups
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphcmVuYXNrQGdtYWlsLmNvbSIsImlhdCI6MTczMTAyOTAwMSwiZXhwIjoxNzMxMDMyNjAxfQ.gf9KPrhBYxpQq7bmoYjLa0bWEA2YSxLLj8mBBQVdofw
+}
+
+body:json {
+  {
+    "name": "Grupo 1"
+  }
+}

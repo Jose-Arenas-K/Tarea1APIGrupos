@@ -1,0 +1,22 @@
+meta {
+  name: Unirse a Grupo
+  type: http
+  seq: 5
+}
+
+post {
+  url: https://g7lj7o7oc5.execute-api.us-east-1.amazonaws.com/prod/groups/01JC4P676V5GE9WH2N2HXBTT5Q/join
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphcmVuYXNrQGdtYWlsLmNvbSIsImlhdCI6MTczMTAyOTAwMSwiZXhwIjoxNzMxMDMyNjAxfQ.gf9KPrhBYxpQq7bmoYjLa0bWEA2YSxLLj8mBBQVdofw
+}
+
+body:json {
+  {
+    "name": "Grupo 1",
+    "githubUsername": "Jose-Arenas-K"
+  }
+}
